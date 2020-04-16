@@ -8,7 +8,7 @@
       <ul class="experience__list">
         <li class="experience__item" v-for="(item,index) in companys" :key="index">
           <div class="experience__time-place">
-            <div class="experience__place">{{item.place}}</div> 
+            <!-- <div class="experience__place">{{item.place}}</div>  -->
             <div class="experience__time">
               <span>{{item.workPeriod}}</span>
             </div>

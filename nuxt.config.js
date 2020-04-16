@@ -8,7 +8,7 @@ const productionUrl = {
   ko: "/ko",
   en: "/en"
 };
-const baseUrl = 'https://marinaaisa.com';
+const baseUrl = 'https://bellal7.github.io/';
 
 module.exports = {
   env: {
@@ -129,5 +129,9 @@ module.exports = {
 
   axios: {
     baseURL: process.env.BASE_URL || 'https://nuxt-blog-y9.firebaseio.com'
-  }
+  },
+  mode: 'spa',
+  router: {
+    base: '/portfolio/'
+  },
 }

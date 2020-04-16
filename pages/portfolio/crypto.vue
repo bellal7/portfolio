@@ -271,7 +271,6 @@ export default {
     font-size: 12px;
     .news_item {
       display: block;
-      min-height: 90px;
       text-align: left;
       a {
         display:flex;

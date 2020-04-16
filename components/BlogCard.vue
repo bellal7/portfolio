@@ -40,6 +40,8 @@
   .blog {
     /deep/ .image-placeholder {
       max-height: 200px;
+      border: 4px solid #f4f4f4;
+      border-radius: 15px;
     }
 
     @media (min-width: $screen-sm){
