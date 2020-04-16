@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{127:function(e,n,o){"use strict";o.r(n),n.default={title:"Bella.L - Front-End Developer",description:"I’m a Front-End Developer based in South Korea."}}}]);
