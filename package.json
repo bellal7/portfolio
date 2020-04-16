@@ -27,12 +27,16 @@
   },
   "scripts": {
     "dev": "nuxt",
+    "analyze": "nuxt build --analyze",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "css-loader": "^3.4.2",
     "frontmatter-markdown-loader": "^1.8.0",
+    "gh-pages": "^2.2.0",
     "highlight.js": "^9.15.10",
     "node-sass": "^4.12.0",
     "push-dir": "^0.4.1",
