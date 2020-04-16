@@ -129,9 +129,5 @@ module.exports = {
 
   axios: {
     baseURL: process.env.BASE_URL || 'https://nuxt-blog-y9.firebaseio.com'
-  },
-  mode: 'spa',
-  router: {
-    base: '/portfolio/'
-  },
+  }
 }
